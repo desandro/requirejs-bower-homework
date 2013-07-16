@@ -63,9 +63,9 @@ define( [ './name' ], function( recipientName ) {
 
 No dice.
 
-    GET http://localhost/requirejs-relative/config-aliases-main/name.js 404 (Not Found) 
+    GET http://localhost/requirejs-bower-homework/config-aliases-main/name.js 404 (Not Found) 
 
-Provide your feedback for this example in [issue #1](issues/1).
+Provide your feedback for this example in [issue #1](https://github.com/desandro/requirejs-bower-homework/issues/1).
 
 ### config-aliases-all
 
@@ -86,7 +86,7 @@ requirejs.config({
 define( [ 'recipient-name' ], function( recipientName ) {
 ```
 
-It works, but this seems a bit heavy-handed and hard to automate. Provide your feedback for this example in [issue #2](issues/2).
+It works, but this seems a bit heavy-handed and hard to automate. Provide your feedback for this example in [issue #2](https://github.com/desandro/requirejs-bower-homework/issues/2).
 
 ### component-path
 
@@ -115,7 +115,7 @@ requirejs.config({
 requirejs( [ 'components/greeter/greeter' ], function( Greeter ) {
 ```
 
-This seems to be the most efficient way to handle Bower dependencies. However, I'm worried that it relies too much on the Bower file structure. Provide your feedback for this example in [issue #3](issues/3).
+This seems to be the most efficient way to handle Bower dependencies. However, I'm worried that it relies too much on the Bower file structure. Provide your feedback for this example in [issue #3](https://github.com/desandro/requirejs-bower-homework/issues/3).
 
 ### Another way
 
@@ -130,4 +130,3 @@ These projects all use Bower to manage dependencies. Your assistance would go a 
 + [Packery](https://github.com/metafizzy/packery/)
 + [imagesLoaded](https://github.com/desandro/imagesloaded)
 + [Draggabilly](https://github.com/desandro/draggabilly)
-
