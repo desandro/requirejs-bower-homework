@@ -88,6 +88,20 @@ define( [ 'recipient-name' ], function( recipientName ) {
 
 It works, but this seems a bit heavy-handed and hard to automate. Provide your feedback for this example in [issue #2](https://github.com/desandro/requirejs-bower-homework/issues/2).
 
+### config-alias-dir
+
+[@necolas recommends](https://github.com/desandro/requirejs-bower-homework/issues/1#issuecomment-21087146) _Configure the path to point to the lib roots._
+
+``` js
+  paths: {
+    greeter: 'components/greeter',
+    recipient: 'components/recipient'
+  }
+```
+
+Keep discussion on [Issue #1](https://github.com/desandro/requirejs-bower-homework/issues/1)
+
+
 ### component-path
 
 Instead of using aliases, the **component-path** example uses the component path.
